@@ -64,6 +64,7 @@ def game_hash
       }
       ]
     }
+  }
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
@@ -125,7 +126,7 @@ def game_hash
         }
     ]
     }
-
   }
+}
 
 end
