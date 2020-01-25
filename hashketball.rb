@@ -134,7 +134,7 @@ def num_points_scored(player)
   score = 0
   data_hash.each do |first_key, team|
      team[:players].each do |players_data|
-        if players_data[:player_name] == player_name
+        if players_data[:player_name] == player
            score = players_data[:points]
         end
      end
